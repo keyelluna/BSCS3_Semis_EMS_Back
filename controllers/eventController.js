@@ -23,18 +23,6 @@ exports.getEventById=(req,res)=> {
     });
 }
 
-//Search a user by gender
-// exports.getUserByGender=(req,res)=> {
-//     const Gender=req.params.gender;
-//     connection.query('SELECT * FROM eventmanagement WHERE gender=?', [Gender], (err, rows,fields)=> {
-//         if(err) throw err;
-//         if(rows.length>0)
-//             res.json(rows);
-//         else
-//             res.status(404).json
-//             ({message:'User not found'});
-//     });
-// }
 
 //Add new Event
 //crud - create
