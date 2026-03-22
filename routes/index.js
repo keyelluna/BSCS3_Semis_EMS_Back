@@ -4,10 +4,9 @@ const eventController = require('../controllers/eventController');
 
 //route to get all list
 router.get('/eventList', eventController.getAllList);
+
 //Route to serach ID
 router.get('/eventId/:id', eventController.getEventById);
-//Route to serach lastName
-// router.get('/users/:gender', eventController.getUserByGender);
 
 //Route to add new event
 router.post('/add', eventController.addEvent);
